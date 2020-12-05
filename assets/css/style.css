@@ -1,0 +1,304 @@
+body, html {
+    height: 100%;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    overflow: hidden;
+
+  }
+
+#background-img {
+  background-image: url("home-background.png");
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* home */
+
+#home {
+    position: relative;
+    text-align: center;
+    color: #2A3950;
+}
+
+#home-name {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+
+.about_top {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 100;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sidenav {
+  width: 140px; 
+  height: 230px;
+  position: absolute; 
+  z-index: 101;
+  top: 0px; 
+  right: 0px;
+  background-color: #2A3950; 
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+  padding-top: 20px;
+  padding-right: 30px;
+  color: #FF9678;
+  font-size: 18px !important;
+  }
+  
+.sidenav a {
+  padding: 30px 8px 6px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+.sidenav a:visited {
+  color: #FF9678;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+  
+  
+/* ABOUT PAGE */
+
+
+/* The sidebar menu */
+#mySidebar {
+  position: absolute;
+  z-index: 50;
+  display: none;
+  padding-right: 30px;
+  text-align: right;
+  color: #f1f1f1;
+
+}
+
+.sidebar {
+  height: 1000px !important; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0;
+  right: 0;
+  background-color: #41436A; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+.sidebar a {
+  padding: 8px 30px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  text-align: right;
+  color: #FFDDD3 !important;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+}
+.sidebar a:visited {
+  color: #f1f1f1;
+}
+.sidebar a:hover {
+  color: #f1f1f1 !important;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  font-size: 36px;
+  margin-left: 0px;
+}
+
+.openbtn {
+  cursor: pointer;
+  background-color: #FFDDD3;
+  color: #2A3950;
+  padding: 10px 15px;
+  font-size: 40px;
+  border: none;
+  border: none;
+  outline:none;
+}
+
+.openbtn:hover {
+  color: #984063;
+}
+
+#main {
+  transition: margin-right .5s; 
+  padding: 22px;
+}
+
+
+/* rest of the page */
+
+#aboutbody {
+  background-color: #2A3950;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  padding-top: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+}
+
+#fullpage {
+  position: relative;
+}
+
+
+#navbar {
+  width: 100%;
+  height: 100px;
+  color: #2A3950;
+  background-color: #FFDDD3;  
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 95px;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 20px;
+  position: absolute;
+
+}
+
+#navbar a:visited {
+  color: #2A3950;
+}
+
+#navbar a {
+  display: block;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+  text-decoration: none;
+}
+
+
+.container {
+  position: relative;
+
+}
+
+#about_purple {
+  position: absolute;
+  top: 500px;
+  left: -60px;
+  max-width: 587px;
+
+}
+
+#about_darkred {
+  position: absolute;
+  right: 3%;
+  top: 140px;
+  max-width: 450px;
+
+}
+
+#about_pink {
+  position: absolute;
+  left: -2%;
+  top: 110px;
+  max-width: 200px;
+
+}
+
+.imgresponsive {
+  width: 100%;
+  height: auto;
+}
+
+#headshot {
+  position: relative;
+  max-width: 261px;
+  top: 200px;
+  left: 0;
+}
+
+.about_child {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* FONTS */
+
+#name-michelle {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 170px;
+    color: #FF9678;
+    text-align: left;
+}
+
+.sidenav {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: right;
+  
+  color: #FF9678;
+}
+
+#navbar {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.5vw;
+  color: #FFFFFF;
+  line-height: 90px;
+
+}
+
+#hey {
+  position: absolute;
+  top: 120px;
+  left: 45%
+}
+
+h4 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.7vw;
+  line-height: 40px;
+  color: #FFD8CD;
+
+}
+
+#intro {
+  position: absolute;
+  top: 350px;
+  left: 45%;
+  padding-top: 20px;
+}
